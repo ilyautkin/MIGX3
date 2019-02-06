@@ -1,6 +1,6 @@
 <?php
 
-class MigxPackageManager extends xPDOGenerator_mysql {
+class MigxPackageManager extends xPDO\Om\mysql\xPDOGenerator {
     function __construct(modX & $modx, array $config = array()) {
         $this->modx = &$modx;
         $this->maps = array();
